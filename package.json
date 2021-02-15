@@ -1,6 +1,6 @@
 {
-  "name": "sea-ports",
-  "version": "0.0.8",
+  "name": "rx-sea-ports",
+  "version": "0.0.1",
   "main": "./index.js",
   "description": "Sea Ports JSON Data",
   "scripts": {
@@ -15,7 +15,7 @@
     "unloc",
     "json"
   ],
-  "author": "marchah <marchah.dev@gmail.com>",
+  "author": "jmcheynier <jm+dev@cheynier.com>",
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
@@ -28,9 +28,13 @@
     "node": ">=4.1.0",
     "iojs": ">= 2.4.0"
   },
+  "forkedFrom": {
+    "type": "git",
+    "url": "https://github.com/marchah/sea-ports/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/marchah/sea-ports.git"
+    "url": "https://github.com/Fujitsu-Blockchain/sea-ports"
   },
   "bugs": {
     "url": "https://github.com/marchah/sea-ports/issues"
